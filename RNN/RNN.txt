@@ -1,0 +1,12 @@
+For NLP,sequqnce is important but ANN doesn't support sequqncing in very effective way
+
+With simple ANN language processing gets difficult as no of input and output 
+neurons is fixed but our sentence size is not fixed and taking one word as one neuron
+we never know the noof neurons to use in simple ANN
+
+Neural networks work on numbers not words so words have to be hot encoded into numbers
+but that brings lots of heavy computation.This has to be done both for input and output
+
+Different sentences in one sentence might have same translated sentence in other
+language.But ANN doesn't allow shared parameters and model has to learn again same meaning 
+but different looking sentence
